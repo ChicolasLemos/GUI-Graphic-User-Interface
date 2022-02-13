@@ -1,10 +1,11 @@
 # GUI-Graphic-User-Interface
 ```
+sudo su -
 apt update && apt upgarde -y 
-sudo apt install -y xfce4 xfce4-goodies
+apt install -y xfce4 xfce4-goodies
  -lightdm
-sudo apt install -y xrdp chromium-browser filezilla thunderbird
-sudo adduser xrdp ssl-cert
+apt install -y xrdp chromium-browser filezilla thunderbird
+adduser xrdp ssl-cert
 exit sudo
 echo xfce4-session > ~/.xsession
 reboot
